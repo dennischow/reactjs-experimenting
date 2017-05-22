@@ -15,7 +15,9 @@ class SiteHeader extends React.Component {
                 <div className="grid-container grid-full">
 
                     <div className="site-header__branding" itemScope itemType="http://schema.org/WPHeader">
-                        <p className="site-header__branding-logo" itemProp="headline"><a className="site-header__branding-link" href="index.html">Fat-Cow Production</a></p>
+                        <p className="site-header__branding-logo" itemProp="headline">
+                            <a className="site-header__branding-link" href="index.html">Branding</a>
+                        </p>
                     </div>
 
                     <button type="button" className="site-header__menu-trigger ui-btn" data-fc-fn="menu-trigger" title="Click to trigger navigation menu show or hide" role="button" aria-expanded="false" aria-pressed="false">

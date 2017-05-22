@@ -2,3 +2,4 @@
 /dist
 /document
 /npm-debug.log
+.DS_Store

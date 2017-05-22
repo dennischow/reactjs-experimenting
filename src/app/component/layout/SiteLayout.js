@@ -1,9 +1,9 @@
 import React from 'react';
 
-import SiteHeader from './SiteHeader';
-import SiteMain from './SiteMain';
-import SiteFooter from './SiteFooter';
-import SiteStatistics from './SiteStatistics';
+import SiteHeader from '../SiteHeader';
+import SiteMain from '../SiteMain';
+import SiteFooter from '../SiteFooter';
+import SiteStatistics from '../SiteStatistics';
 
 class SiteLayout extends React.Component {
 
