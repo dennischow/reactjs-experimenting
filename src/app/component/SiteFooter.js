@@ -16,7 +16,7 @@ class SiteFooter extends React.Component {
 
                     <div className="site-footer__copyright">
                         <p className="site-footer__text">
-                            <small className="site-footer__copyright-info">&copy; 2011-2016 <a className="site-footer__copyright-link" href="index.html">Fat-Cow Production</a></small>
+                            <small className="site-footer__copyright-info">2017 <a className="site-footer__copyright-link" href="index.html">Branding</a></small>
                         </p>
                     </div>
                     <div className="site-footer__social">
@@ -50,7 +50,7 @@ class SiteFooter extends React.Component {
                     </div>
                     <div className="site-footer__remark">
                         <p className="site-footer__text">
-                            <span className="fc-sr-content">code and design both are </span>Handcrafted by <a className="site-footer__remark-link" href="about.html" title="learn more about dennis chow">Dennis Chow</a>
+                            <span className="fc-sr-content">code and design both are </span>Handcrafted by <a className="site-footer__remark-link" href="about.html" title="learn more about dennis chow">Author</a>
                         </p>
                     </div>
                     <button className="site-footer__scroll-to-up ui-btn" data-fc-fn="scroll-to-top" title="Click here scroll to top">Scroll to top <i className="site-footer__scroll-to-up-icon fa fa-chevron-up"></i></button>

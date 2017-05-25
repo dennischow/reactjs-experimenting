@@ -16,7 +16,7 @@ class SiteHeader extends React.Component {
 
                     <div className="site-header__branding" itemScope itemType="http://schema.org/WPHeader">
                         <p className="site-header__branding-logo" itemProp="headline">
-                            <a className="site-header__branding-link" href="index.html">Branding</a>
+                            <a className="site-header__branding-link" href="index.html">{this.props.title}</a>
                         </p>
                     </div>
 

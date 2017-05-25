@@ -9,6 +9,11 @@ class SiteLayout extends React.Component {
 
     constructor () {
         super();
+
+        this.state = {
+            title: "Branding"
+        };
+
     }
 
     render () {
@@ -16,7 +21,7 @@ class SiteLayout extends React.Component {
         return (
 
             <div className="page-view">
-                <SiteHeader />
+                <SiteHeader title={this.state.title} />
                 <SiteMain />
                 <SiteFooter />
                 <SiteStatistics />
