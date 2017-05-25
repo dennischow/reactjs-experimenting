@@ -10,6 +10,7 @@ class SiteLayout extends React.Component {
     constructor () {
         super();
 
+        // This is the Title
         this.state = {
             title: "Branding"
         };
